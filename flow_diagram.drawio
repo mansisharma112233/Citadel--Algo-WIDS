@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="lW6LlGiHvW29Txsua7ei">
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pSDpZEdCcwCxclJugrU2-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="350" as="geometry" />
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CDA2BE;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="350" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A680B8;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="350" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B5739D;" value="" vertex="1">
+          <mxGeometry height="80" width="160" x="330" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-5" edge="1" parent="1" source="pSDpZEdCcwCxclJugrU2-1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pSDpZEdCcwCxclJugrU2-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-6" edge="1" parent="1" source="pSDpZEdCcwCxclJugrU2-4" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pSDpZEdCcwCxclJugrU2-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Agent" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Order" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Orderbook" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Trade&lt;div&gt;Logger&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-13" edge="1" parent="1" source="pSDpZEdCcwCxclJugrU2-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pSDpZEdCcwCxclJugrU2-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-14" edge="1" parent="1" source="pSDpZEdCcwCxclJugrU2-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pSDpZEdCcwCxclJugrU2-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-17" edge="1" parent="1" source="pSDpZEdCcwCxclJugrU2-1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="pSDpZEdCcwCxclJugrU2-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="submit_order()" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pSDpZEdCcwCxclJugrU2-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="bids/asks&lt;div&gt;price/time priority&lt;/div&gt;&lt;div&gt;matching engine&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="280" x="270" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
